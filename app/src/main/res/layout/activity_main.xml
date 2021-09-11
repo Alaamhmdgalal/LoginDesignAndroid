@@ -21,7 +21,7 @@
         android:padding="60dp"
         android:text="Sign In"
         android:textColor="#F7F7F8"
-        android:textSize="48sp" />
+        android:textSize="48sp"/>
 
 
     <EditText
