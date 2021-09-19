@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blue_background"
+    tools:context=".SecondActivity">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/mario_image"
+        android:layout_height="100dp"
+        android:layout_width="100dp"
+        android:src="@drawable/mario"
+        android:layout_margin="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+
+    <TextView
+        android:id="@+id/second_text_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name label"
+        android:textSize="28sp"
+        android:textStyle="italic"
+        android:textColor="#000000"
+        android:layout_margin="20dp"
+        app:layout_constraintStart_toEndOf="@id/mario_image"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
